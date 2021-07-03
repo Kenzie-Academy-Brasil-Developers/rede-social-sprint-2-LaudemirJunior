@@ -187,31 +187,30 @@ footer {
 	padding: 5px;
 }
 
-@media (min-width: 800px){
-	body{
-		width: 935px;
-	}
-	footer {
-		flex-direction: row;
-	}
-	.profile-content {
-		flex-direction: row;
-		text-align: start;
-	}
-	.profile-data {
-		align-items: flex-start;
-		justify-content: left;
-		margin-left: 0;
-	}
-	.profile-photo img {
-		width: 100%;
-	}
+@media (min-width: 768px){
+body{
+	width: 935px;
+}
+footer {
+	flex-direction: row;
+}
+.profile-content {
+	flex-direction: row;
+	text-align: start;
+}
+.profile-data {
+	align-items: flex-start;
+	justify-content: left;
+	margin-left: 0;
+}
+.profile-photo img {
+	width: 100%;
+}
 }
 
-@media (min-width: 400px){
-	.highlighted-stories {
-		align-items: flex-start;
-		justify-content: left;
-	}
-
+@media (min-width: 425px){
+.highlighted-stories {
+	align-items: flex-start;
+	justify-content: left;
+}
 }
