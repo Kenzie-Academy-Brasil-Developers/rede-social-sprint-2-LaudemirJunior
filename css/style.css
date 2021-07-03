@@ -6,7 +6,11 @@ body {
 	color: #262626;
 	margin: auto;
 	width: 100%;
+}
 
+header figure {
+	margin: 0;
+	padding: 10px 0 0 10px;
 }
 
 main {
@@ -41,7 +45,7 @@ main {
 
 .profile-data {
 	display: flex;
-	margin: 0;
+	margin: 10px 0 10px 0;
 	padding: 0;
 	align-items: center;
 	justify-content: center;
@@ -65,27 +69,24 @@ ul {
 p {
 	margin: 0;
 	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
 h1 {
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 28px;
 	font-weight: 300;
-	margin: 15px 0 15px 0;
+	margin: 10px 0 0 0;
 }
 
 h2 {
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	font-weight: 300;
 	font-weight: bold;
+	margin: 0;
+	padding: 0;
 }
 
 span {
 	font-weight: 100;
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
@@ -102,7 +103,7 @@ a {
 }
 
 .highlighted-stories img {
-	width: 57px;
+	width: 77px;
 	border-radius: 100%;
 	border: 2px solid #DBDBDB;
 	padding: 3px;
@@ -167,6 +168,7 @@ footer {
 	justify-content: space-between;
 	background-color: #fafafa;
 	margin-top: 20px;
+	text-align: center;
 }
 
 .footer-nav a {
@@ -207,9 +209,6 @@ footer {
 }
 
 @media (min-width: 400px){
-	.highlighted-stories img {
-		width: 77px;
-	}
 	.highlighted-stories {
 		align-items: flex-start;
 		justify-content: left;
